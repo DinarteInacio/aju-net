@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AjuNet — Internet Fibra Óptica em Aracaju/SE</title>
+<meta name="description" content="Internet 100% fibra óptica em Aracaju/SE. Planos com preço fixo a partir de R$ 60/mês, instalação rápida e suporte técnico local. Consulte a cobertura no seu bairro.">
+<meta name="theme-color" content="#013451">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="AjuNet">
+<meta property="og:title" content="AjuNet — Internet Fibra Óptica em Aracaju/SE">
+<meta property="og:description" content="Fibra óptica 100% dedicada em Aracaju/SE. Planos a partir de R$ 60/mês, preço fixo, instalação rápida e suporte técnico local.">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a href="#top" class="skip-link">Pular para o conteúdo</a>
+
+<header class="site">
+  <div class="navrow">
+    <a href="#top" class="logo">
+      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true"><circle cx="15" cy="15" r="14.5" stroke="#02B0E3" stroke-width="1"/><path d="M6 17c2.5-4 4.5-4 6.5 0s4 4 6.5 0 4.5-4 6.5 0" stroke="#02B0E3" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+      AjuNet
+    </a>
+    <ul class="links">
+      <li><a href="#planos">Planos</a></li>
+      <li><a href="#porque">Por que fibra</a></li>
+      <li><a href="#cobertura">Cobertura</a></li>
+      <li><a href="#sobre">Quem somos</a></li>
+    </ul>
+    <div class="navcta">
+      <span class="navdivider"></span>
+      <a class="navphone" href="tel:+557931799609">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.5 21 3 13.5 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="currentColor"/></svg>
+        (79) 3179-9609
+      </a>
+      <a href="#planos" class="btn btn-primary">Assinar agora</a>
+      <button id="menuToggle" class="menubtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobilePanel">
+        <svg class="icon-open" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <svg class="icon-close" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav id="mobilePanel" class="mobile-panel" aria-hidden="true"><div>
+    <ul class="mobile-links">
+      <li><a href="#planos">Planos</a></li>
+      <li><a href="#porque">Por que fibra</a></li>
+      <li><a href="#cobertura">Cobertura</a></li>
+      <li><a href="#sobre">Quem somos</a></li>
+    </ul>
+    <div class="mobile-actions">
+      <a class="navphone" href="tel:+557931799609">(79) 3179-9609</a>
+      <a href="#planos" class="btn btn-primary">Assinar agora</a>
+    </div>
+  </div></nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Fibra óptica · Aracaju/SE</div>
+        <h1>Internet que acompanha <span class="italic">o ritmo</span> da sua casa.</h1>
+        <p class="lead">Fibra 100% dedicada, da nossa central até a sua sala. Instalação rápida e suporte técnico local — sem enrolação, sem letra miúda.</p>
+        <div class="hero-ctas">
+          <a href="#planos" class="btn btn-primary">Ver planos disponíveis</a>
+          <a href="#cobertura" class="link-arrow">Verificar cobertura no meu bairro →</a>
+        </div>
+        <div class="trustrow">
+          <div class="stat"><b>2008</b><span>Ano de fundação da KLX Tecnologia</span></div>
+          <div class="stat"><b>2016</b><span>Chegada da fibra óptica a Sergipe</span></div>
+          <div class="stat"><b>5 bairros</b><span>Já conectados em Aracaju</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <canvas id="signal" aria-hidden="true"></canvas>
+        <div class="badge"><div><b>300 Mega</b><span>Velocidade máxima</span></div><div><b>100%</b><span>Fibra óptica</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="planos">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Planos</div>
+        <h2>Um plano perfeito pra cada casa.</h2>
+        <p>Preço fixo todo mês, sem franquia de dados e sem susto na fatura.</p>
+      </div>
+      <div class="plan-grid">
+        <div class="plan-card">
+          <div class="plan-speed">50<span>MEGA</span></div>
+          <p class="plan-desc">Ideal pra quem usa o essencial: mensagens, e-mail e redes sociais.</p>
+          <div class="plan-price">R$ 60<span>/mês</span></div>
+          <a href="https://wa.me/5579999413488?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20plano%20de%2050%20Mega%20da%20AjuNet." target="_blank" rel="noopener" class="btn btn-ghost">Quero esse plano</a>
+        </div>
+        <div class="plan-card">
+          <div class="plan-speed">200<span>MEGA</span></div>
+          <p class="plan-desc">Pra casa com mais de uma tela ligada ao mesmo tempo.</p>
+          <div class="plan-price">R$ 80<span>/mês</span></div>
+          <a href="https://wa.me/5579999413488?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20plano%20de%20200%20Mega%20da%20AjuNet." target="_blank" rel="noopener" class="btn btn-ghost">Quero esse plano</a>
+        </div>
+        <div class="plan-card popular">
+          <div class="plan-tag">Mais escolhido</div>
+          <div class="plan-speed">250<span>MEGA</span></div>
+          <p class="plan-desc">Streaming em 4K, home office e jogos online sem travar.</p>
+          <div class="plan-price">R$ 99<span>/mês</span></div>
+          <a href="https://wa.me/5579999413488?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20plano%20de%20250%20Mega%20da%20AjuNet." target="_blank" rel="noopener" class="btn btn-primary">Quero esse plano</a>
+        </div>
+        <div class="plan-card">
+          <div class="plan-speed">300<span>MEGA</span></div>
+          <p class="plan-desc">Velocidade máxima pra quem não abre mão de nada.</p>
+          <div class="plan-price">R$ 120<span>/mês</span></div>
+          <a href="https://wa.me/5579999413488?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20plano%20de%20300%20Mega%20da%20AjuNet." target="_blank" rel="noopener" class="btn btn-ghost">Quero esse plano</a>
+        </div>
+      </div>
+      <p class="plan-foot">Valores válidos para a área de cobertura AjuNet em Aracaju/SE. Consulte disponibilidade no seu endereço.</p>
+    </div>
+  </section>
+
+  <section id="porque">
+    <div class="wrap why-grid">
+      <div>
+        <div class="eyebrow">Por que fibra</div>
+        <h2>Fibra é diferente de tudo que você já teve em casa.</h2>
+      </div>
+      <div class="why-list">
+        <div class="why-item"><span class="why-num">01</span><div><h3>Velocidade simétrica</h3><p>Upload tão rápido quanto o download — essencial pra quem trabalha e estuda de casa.</p></div></div>
+        <div class="why-item"><span class="why-num">02</span><div><h3>Estabilidade real</h3><p>Sem oscilar à noite ou nos horários de pico. A fibra não divide sinal com o vizinho.</p></div></div>
+        <div class="why-item"><span class="why-num">03</span><div><h3>Suporte técnico local</h3><p>Nossa equipe é de Aracaju. Quando você liga, fala com quem conhece sua rua.</p></div></div>
+        <div class="why-item"><span class="why-num">04</span><div><h3>Instalação sem burocracia</h3><p>Agendamento rápido e equipe própria — sem depender de terceiros.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cobertura">
+    <div class="wrap cov-grid">
+      <div>
+        <div class="eyebrow">Área de cobertura</div>
+        <h2>Onde a fibra AjuNet já chegou</h2>
+        <p style="margin-top:14px;">Estamos presentes nestes bairros de Aracaju, com expansão contínua da rede.</p>
+        <div class="cov-chips">
+          <span class="chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="#02B0E3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>José Conrado de Araújo</span>
+          <span class="chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="#02B0E3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>Siqueira Campos</span>
+          <span class="chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="#02B0E3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>Cj. Princesa Isabel</span>
+          <span class="chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="#02B0E3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>Cj. Almirante Tamandaré</span>
+          <span class="chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke="#02B0E3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>Dezoito do Forte</span>
+        </div>
+        <p class="cov-note">Não encontrou seu bairro? Estamos expandindo a rede toda semana — <a href="https://wa.me/5579999413488?text=Ol%C3%A1!%20Meu%20bairro%20tem%20cobertura%20da%20AjuNet%3F" target="_blank" rel="noopener" class="link-arrow" style="display:inline-flex;">fale com a gente →</a></p>
+      </div>
+      <div class="map-card">
+        <div class="map-dot" style="top:30%;left:38%;"></div>
+        <div class="map-dot" style="top:52%;left:60%;"></div>
+        <div class="map-dot" style="top:66%;left:30%;"></div>
+        <div class="map-dot" style="top:22%;left:66%;"></div>
+        <div class="map-dot" style="top:78%;left:58%;"></div>
+        <div class="map-line" style="top:30%;left:38%;width:22%;transform:rotate(18deg);transform-origin:left;"></div>
+        <div class="map-line" style="top:52%;left:60%;width:30%;transform:rotate(-25deg);transform-origin:left;"></div>
+        <div class="map-line" style="top:66%;left:30%;width:36%;transform:rotate(-8deg);transform-origin:left;"></div>
+        <div class="map-label" style="top:16%;left:38%;">Aracaju/SE</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Quem somos</div>
+        <h2>Quase duas décadas construindo rede de fibra óptica.</h2>
+        <p class="about-lead" style="margin-top:18px;">"Provemos serviços em construção de rede de fibra óptica convencional, corporativa e FTTH — do projeto até a sua tomada."</p>
+      </div>
+      <div class="timeline">
+        <div class="tl-item"><div class="tl-year">2008</div><p>A KLX Tecnologia LTDA é fundada por profissionais da área de fibra óptica, com nome comercial AjuNet.</p></div>
+        <div class="tl-item"><div class="tl-year">2016</div><p>Início dos projetos de internet banda larga por fibra óptica no Estado de Sergipe.</p></div>
+        <div class="tl-item"><div class="tl-year">Hoje</div><p>Rede FTTH própria levando fibra 100% óptica direto para bairros de Aracaju, com atendimento local.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="wrap">
+      <div class="cta-band">
+        <div class="cta-band-top">
+          <div>
+            <div class="eyebrow" style="color:#6FD3EE;">Atendimento</div>
+            <h2>Pronto pra sentir a diferença da fibra?</h2>
+            <p class="cta-sub">Fale com a nossa equipe em Aracaju e receba as informações do plano ideal pra sua casa.</p>
+          </div>
+          <a href="https://wa.me/5579999413488?text=Ol%C3%A1!%20Quero%20assinar%20a%20internet%20fibra%20da%20AjuNet." target="_blank" rel="noopener" class="btn btn-primary">Chamar no WhatsApp</a>
+        </div>
+        <div class="contact-methods">
+          <a class="contact-method" href="https://wa.me/5579999413488" target="_blank" rel="noopener">
+            <span class="cm-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.3c1.4.8 3.1 1.3 4.8 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5.2.5.8 1.9.8 2.1.1.2.1.3 0 .5-.1.2-.1.3-.3.5-.1.2-.3.4-.4.5-.1.1-.3.3-.1.6.2.3.9 1.4 1.9 2.3 1.3 1.2 2.4 1.5 2.7 1.7.3.2.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.2.7-.1.3.1 1.7.8 2 1 .3.1.5.2.6.3.1.2.1.9-.1 1.6z"/></svg></span>
+            <span><span class="cm-label">WhatsApp</span><span class="cm-value">(79) 99941-3488</span></span>
+          </a>
+          <a class="contact-method" href="tel:+557931799609">
+            <span class="cm-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.5 21 3 13.5 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg></span>
+            <span><span class="cm-label">Central de atendimento</span><span class="cm-value">(79) 3179-9609</span></span>
+          </a>
+          <a class="contact-method" href="mailto:atendimento@ajunet.com">
+            <span class="cm-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 6 9-6"/></svg></span>
+            <span><span class="cm-label">E-mail</span><span class="cm-value">atendimento@ajunet.com</span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="#top" class="foot-logo">
+          <svg width="26" height="26" viewBox="0 0 30 30" fill="none" aria-hidden="true"><circle cx="15" cy="15" r="14.5" stroke="#02B0E3" stroke-width="1"/><path d="M6 17c2.5-4 4.5-4 6.5 0s4 4 6.5 0 4.5-4 6.5 0" stroke="#02B0E3" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+          AjuNet
+        </a>
+        <p class="foot-desc">Internet fibra óptica em Aracaju/SE. Um produto da KLX Tecnologia LTDA, no mercado desde 2008.</p>
+        <div class="foot-social">
+          <a href="https://www.facebook.com/ajunet.internet" target="_blank" rel="noopener" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="#fff"><path d="M13.5 22v-8.2h2.7l.4-3.2h-3.1V8.4c0-.9.3-1.6 1.6-1.6h1.7V3.9C16.5 3.9 15.4 3.8 14.2 3.8c-2.5 0-4.3 1.5-4.3 4.4v2.4H7.2v3.2H10V22h3.5z"/></svg></a>
+          <a href="https://www.instagram.com/ajunetfibra/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul><li><a href="#top">Início</a></li><li><a href="#sobre">Quem somos</a></li><li><a href="#planos">Planos</a></li><li><a href="#cobertura">Cobertura</a></li></ul>
+      </div>
+      <div>
+        <h4>Central de atendimento</h4>
+        <ul><li><a href="tel:+557931799609">(79) 3179-9609</a></li><li><a href="tel:+5579999413488">(79) 99941-3488</a></li><li><a href="mailto:atendimento@ajunet.com">atendimento@ajunet.com</a></li></ul>
+      </div>
+      <div>
+        <h4>Suporte técnico</h4>
+        <ul><li><a href="tel:+5579999983488">(79) 99998-3488</a></li><li><a href="mailto:suporte@ajunet.com">suporte@ajunet.com</a></li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 AjuNet · KLX Tecnologia LTDA · Aracaju/SE</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/5579999413488?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20AjuNet." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.3c1.4.8 3.1 1.3 4.8 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5.2.5.8 1.9.8 2.1.1.2.1.3 0 .5-.1.2-.1.3-.3.5-.1.2-.3.4-.4.5-.1.1-.3.3-.1.6.2.3.9 1.4 1.9 2.3 1.3 1.2 2.4 1.5 2.7 1.7.3.2.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.2.7-.1.3.1 1.7.8 2 1 .3.1.5.2.6.3.1.2.1.9-.1 1.6z"/></svg>
+</a>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
