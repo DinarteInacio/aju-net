@@ -1,0 +1,27 @@
+name: Publicar na Locaweb
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    name: Enviar landing page por FTP
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar arquivos do site
+        uses: actions/checkout@v4
+
+      - name: Publicar na Locaweb
+        uses: locaweb/ftp-deploy@1.0.0
+        with:
+          host: ${{ secrets.LOCAWEB_FTP_HOST }}
+          user: ${{ secrets.LOCAWEB_FTP_USER }}
+          password: ${{ secrets.LOCAWEB_FTP_PASSWORD }}
+          localDir: .
+          remoteDir: public_html
