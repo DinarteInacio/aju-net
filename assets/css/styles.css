@@ -57,7 +57,7 @@ p{line-height:1.65;color:var(--ink-soft);margin:0;}
   white-space:nowrap;
 }
 .btn:focus-visible{outline:2px solid var(--signal);outline-offset:3px;}
-.btn-primary{background:linear-gradient(180deg,#3DC6EE 0%,var(--sun) 100%);color:var(--deep);box-shadow:0 14px 30px -14px rgba(2,176,227,.5);}
+.btn-primary{background:linear-gradient(180deg,#af0bcf 0%,var(--sun) 100%);color:var(--deep);box-shadow:0 14px 30px -14px rgba(2,176,227,.5);}
 .btn-primary:hover{background:var(--sun-deep);color:#fff;transform:translateY(-1px);}
 .btn-ghost{background:transparent;color:var(--ink);border-color:var(--line);}
 .btn-ghost:hover{border-color:var(--ink);}
